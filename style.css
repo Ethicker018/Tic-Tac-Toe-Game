@@ -1,0 +1,27 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+
+section {
+    text-align: center;
+}
+
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #fefefe;
+    color: #ffffff;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    box-shadow: 1px 1px 1px 1px #0a0202;
+    border: 1px solid #0c0801;
+    line-height: 100px;
+    font-size: 60px;
+}
+
